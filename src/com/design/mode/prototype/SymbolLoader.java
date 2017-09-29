@@ -9,6 +9,7 @@ public class SymbolLoader  {
     public SymbolLoader() {
            symbols.put("Line", new LineSymbol());
            symbols.put("Note", new NoteSymbol());
+           
     }
     public Hashtable getSymbols() {
         return symbols;

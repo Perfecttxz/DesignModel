@@ -4,6 +4,6 @@ public class Shape2 extends AbstractShape {
 
 	@Override
 	public void Border() {
-		System.err.println("border===");
+		System.out.println("border===");
 	}
 }

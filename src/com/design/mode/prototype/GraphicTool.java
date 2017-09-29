@@ -28,6 +28,8 @@ public class GraphicTool  {
 
         //-----  Draw a Line  -------------------------------
         Graphic myLine = (Graphic)((Graphic)mySymbols.get("Line")).clone();
+        myLine.setName("a");
+       System.out.println( myLine.getName());
         myLine.DoSomething();
     }
 }
